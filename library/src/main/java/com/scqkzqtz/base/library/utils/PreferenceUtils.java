@@ -8,20 +8,11 @@ import android.content.SharedPreferences;
  */
 public class PreferenceUtils {
 
-    /**
-     * 保存的Share
-     */
     private static SharedPreferences mSharedPreferences = null;
-
-    /**
-     * 编辑器
-     */
     private static SharedPreferences.Editor mEditor = null;
 
     /**
      * 初始化默认SharePreferences
-     *
-     * @param context 上下文
      */
     public static void init(Context context) {
         if (null == mSharedPreferences) {

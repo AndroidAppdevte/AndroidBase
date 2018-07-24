@@ -8,6 +8,9 @@ import android.graphics.drawable.GradientDrawable;
 import android.graphics.drawable.StateListDrawable;
 import android.widget.TextView;
 
+/**
+ * drawable代码生成
+ */
 public class DrawableUtil {
     private DrawableUtil() {
         throw new UnsupportedOperationException("cannot be instantiated");
